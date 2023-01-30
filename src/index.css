@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace,'Cedarville Cursive', cursive;
+}
+
+/* Spinning Curved Text */
+.prueba {
+  font-family: 'Cedarville Cursive', cursive;
+  color: #1976d2;
+}
+.spinning-text-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.spinning-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  animation: spin 50s linear infinite;
+}
+
+.spinning-text span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform-origin: 0 100px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning-text-wrapper img {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  filter: drop-shadow(10px 10px 5px hsla(0, 0%, 0%, 0.461));
+}
