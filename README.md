@@ -1,5 +1,5 @@
 # portafolio
-Saludos desde escritorio 2
+  creamos nuestro portafolio con ReactJS
 # elementos que tiene que tener el portafolio
 desccargar curriculum
 
