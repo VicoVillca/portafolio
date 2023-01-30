@@ -16,6 +16,7 @@ export default function DenseAppBar() {
             <CodeIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" component="div">
+          <CodeIcon />
             VicoVillca
           </Typography>
         </Toolbar>

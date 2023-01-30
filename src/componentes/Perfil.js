@@ -5,23 +5,23 @@ import { Typography } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
-import GotMilk from "./foto.png";
+import GotMilk from "./images/foto.png";
 import SpinningText from './SpinningText';
 import { SocialIcon } from 'react-social-icons';
-
+import curriculum from '../componentes/curriculum abraham villca.pdf'
 export default function Perfil() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('Scurriculum abraham villca.pdf').then(response => {
-        response.blob().then(blob => {
-            // Creating new object of PDF file
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'curriculum abraham villca.pdf';
-            alink.click();
-        })
+    fetch(curriculum).then(response => {
+      response.blob().then(blob => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'curriculum abraham villca.pdf';
+        alink.click();
+    })
     })
 }
 

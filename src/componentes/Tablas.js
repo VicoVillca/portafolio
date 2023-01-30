@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Perfil from './Perfil';
 import Estudios from './Estudios';
 import TableSkill from './TableSkill';
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -63,12 +64,10 @@ export default function BasicTabs() {
       <TabPanel value={value} index={1}>
         <Estudios/>
       </TabPanel>
-
+      
       <TabPanel value={value} index={2}>
         <TableSkill/>
-      
       </TabPanel>
-      
     </Box>
   );
 }

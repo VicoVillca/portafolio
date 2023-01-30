@@ -1,23 +1,10 @@
-import React, { useState } from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
+import React from 'react';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import ImageListItem from '@mui/material/ImageListItem';
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Chip from '@mui/material/Chip';
-import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
-import InfoIcon from '@mui/icons-material/Info';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import GitHubIcon from '@mui/icons-material/GitHub';
 export default function ImageItem({item}) {
-  const [isShown, setIsShown] = useState(false);
   return (
     <ImageListItem  >
          <img
@@ -31,24 +18,26 @@ export default function ImageItem({item}) {
 
 sx={{margin:"1rem",
 borderRadius:".5rem",
-background:"white",
+background:"black",
 opacity:"0.8",
-"& .MuiImageListItemBar-title": { color: "black" },  //styles for subtitle
+"& .MuiImageListItemBar-title": { color: "white" },  //styles for subtitle
 }}
            title={item.title}
             actionIcon={<>
              <IconButton
              edge="start"
              size="small"
-                color="primary"
+             sx={{color: "white"}}
                 aria-label={`info about ${item.title}`}
+                onClick={() => window.open(item.demo)}
               >
                 <OpenInNewIcon />
               </IconButton>
               <IconButton
               size="small"
-               color="primary"
+              sx={{color: "white"}}
                 aria-label={`info about ${item.title}`}
+                onClick={() => window.open(item.git)}
               >
                 <GitHubIcon/>
               </IconButton>

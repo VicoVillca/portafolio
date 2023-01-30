@@ -7,10 +7,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import ButtonAppBar from './ButtonAppBar';
-import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Link from '@mui/material/Link';
 import Tablas from './Tablas';
-import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 const theme = createTheme();
 
 export default function SignInSide() {
