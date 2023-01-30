@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.46ef0153.css",
-    "main.js": "/portafolio/static/js/main.843bc75c.js",
+    "main.js": "/portafolio/static/js/main.b1efd21b.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
+    "static/media/portafolio.png": "/portafolio/static/media/portafolio.c794d91c1729763fddd5.png",
+    "static/media/curriculum abraham villca.pdf": "/portafolio/static/media/curriculum abraham villca.71fd30cf1cb70371e018.pdf",
     "static/media/foto.png": "/portafolio/static/media/foto.a6be57f16504e32554e2.png",
-    "static/media/logo.svg": "/portafolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portafolio/index.html",
     "main.46ef0153.css.map": "/portafolio/static/css/main.46ef0153.css.map",
-    "main.843bc75c.js.map": "/portafolio/static/js/main.843bc75c.js.map",
+    "main.b1efd21b.js.map": "/portafolio/static/js/main.b1efd21b.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46ef0153.css",
-    "static/js/main.843bc75c.js"
+    "static/js/main.b1efd21b.js"
   ]
 }
