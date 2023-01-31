@@ -5,7 +5,8 @@ import Box from '@mui/material/Box';
 import { useMediaQuery } from '@mui/material';
 import ImageItem from './ImageItem';
 //imagenes de proyectos
-import logo from './images/proyectos/portafolio.png';
+import portafolio from './images/proyectos/portafolio.png';
+import obi from './images/proyectos/obi.png';
 export default function Proyectos() {
     const matches = useMediaQuery('(min-width:600px)');
   return (
@@ -25,12 +26,17 @@ export default function Proyectos() {
 
 const itemData = [
   {
-    img: logo,
+    img: portafolio,
     title: 'Portafolio',
     demo: 'https://vicovillca.github.io/portafolio/',
     git: 'https://github.com/VicoVillca/portafolio'
   },
-
+  {
+    img: obi,
+    title: 'ObiAdmin',
+    demo: 'https://obi-font-end.vercel.app/',
+    git: 'https://github.com/VicoVillca/Obi-FontEnd'
+  },
 
   
 ];
