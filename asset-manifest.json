@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.46ef0153.css",
-    "main.js": "/portafolio/static/js/main.fc44faa8.js",
+    "main.js": "/portafolio/static/js/main.ec16d14b.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/portafolio.png": "/portafolio/static/media/portafolio.c794d91c1729763fddd5.png",
     "static/media/curriculum abraham villca.pdf": "/portafolio/static/media/curriculum abraham villca.71fd30cf1cb70371e018.pdf",
@@ -9,11 +9,11 @@
     "static/media/obi.png": "/portafolio/static/media/obi.8436b36250bc87cb2af3.png",
     "index.html": "/portafolio/index.html",
     "main.46ef0153.css.map": "/portafolio/static/css/main.46ef0153.css.map",
-    "main.fc44faa8.js.map": "/portafolio/static/js/main.fc44faa8.js.map",
+    "main.ec16d14b.js.map": "/portafolio/static/js/main.ec16d14b.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46ef0153.css",
-    "static/js/main.fc44faa8.js"
+    "static/js/main.ec16d14b.js"
   ]
 }
