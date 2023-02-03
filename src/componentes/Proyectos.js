@@ -37,6 +37,12 @@ const itemData = [
     demo: 'https://obi-font-end.vercel.app/',
     git: 'https://github.com/VicoVillca/Obi-FontEnd'
   },
-
+  {
+    img: obi,
+    title: 'GoldPrice',
+    demo: 'https://vicovillca.github.io/GoldPrice',
+    git: 'https://github.com/VicoVillca/Obi-FontEnd'
+  },
   
 ];
+
