@@ -4,6 +4,8 @@ import ListSubheader from "@mui/material/ListSubheader";
 import Box from "@mui/material/Box";
 import { useMediaQuery } from "@mui/material";
 import ImageItem from "./ImageItem";
+//FORMULARIOS
+import Grid from "@mui/material/Grid";
 // componentes de card
 
 import Card from "@mui/material/Card";
@@ -19,6 +21,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import portafolio from "./images/proyectos/portafolio.png";
 import obi from "./images/proyectos/obi.png";
 import goldprice from "./images/proyectos/golgprice.png";
+import Divider from "@mui/material/Divider";
 export default function Proyectos() {
   const matches = useMediaQuery("(min-width:600px)");
   return (
@@ -27,12 +30,13 @@ export default function Proyectos() {
       <ImageList
         cols={matches ? 3 : 1}
         rowHeight={164}
-        sx={{ pr: 5, pl: 5 }}
-        variant="masonry"
-        gap={8}
+        sx={{ pr: 2, pl: 2 }}
       >
         {itemData.map((item) => (
-          <Card key={item.title} sx={{ maxWidth: 345 }}>
+          <Card
+            key={item.title}
+            sx={{ m: 1, border: " grey", borderRadius: 5 }}
+          >
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -41,14 +45,33 @@ export default function Proyectos() {
                 alt="green iguana"
               />
             </CardActionArea>
+            <Divider light />
             <CardActions>
-              {item.title}
-              <IconButton edge="start" size="small" color="primary"  onClick={() => window.open(item.demo)}>
-                <OpenInNewIcon />
-              </IconButton>
-              <IconButton size="small" color="primary"  onClick={() => window.open(item.git)}>
-                <GitHubIcon />
-              </IconButton>
+              <Grid container alignItems="center">
+                <Grid item xs>
+                  <Typography gutterBottom variant="h7" component="div">
+                    {item.title}
+                  </Typography>
+                </Grid>
+
+                <Grid item>
+                  <IconButton
+                    edge="start"
+                    size="small"
+                    color="primary"
+                    onClick={() => window.open(item.demo)}
+                  >
+                    <OpenInNewIcon />
+                  </IconButton>
+                  <IconButton
+                    size="small"
+                    color="primary"
+                    onClick={() => window.open(item.git)}
+                  >
+                    <GitHubIcon />
+                  </IconButton>
+                </Grid>
+              </Grid>
             </CardActions>
           </Card>
         ))}
