@@ -13,20 +13,16 @@ export default function Estudios() {
         {primary:"Licenciado en Informática",secondary:"Universidad Mayor de San Andrés (UMSA),2022"},
         {primary:"android for beginners",secondary:"GDG Google Developers in STUDY JAMS"},
         {primary:"Scrum Fundamental Certified (SFC)",secondary:"SCRUMStudy"},
+        {primary:"JavaScript Algorithms and Data Structures",secondary:"FreeCodeCamp"},
         {primary:"HTML & CSS - Certification Course for Beginners",secondary:"Udemy"},
         {primary:"Curso de maquetación web de lo básico a lo avanzado",secondary:"Udemy"},
         {primary:"Universidad de Lógica de Programación - Aprende 7 Lenguajes!",secondary:"Udemy"},
         {primary:"Seis pasos para el bienestar laboral",secondary:"Udemy"},
-        {primary:"Licenciado en Informática",secondary:"Universidad Mayor de San Andrés (UMSA),2022"},
-        {primary:"android for beginners",secondary:"GDG Google Developers in STUDY JAMS"},
-        {primary:"Scrum Fundamental Certified (SFC)",secondary:"SCRUMStudy"},
-        {primary:"HTML & CSS - Certification Course for Beginners",secondary:"Udemy"},
-        {primary:"Curso de maquetación web de lo básico a lo avanzado",secondary:"Udemy"},
-        {primary:"Universidad de Lógica de Programación - Aprende 7 Lenguajes!",secondary:"Udemy"},
-        {primary:"Universidad de Lógica de Programación - Aprende 7 Lenguajes!",secondary:"Udemy"},
-        {primary:"Universidad de Lógica de Programación - Aprende 7 Lenguajes!",secondary:"Udemy"},
-        {primary:"Universidad de Lógica de Programación - Aprende 7 Lenguajes!",secondary:"Udemy"},
-        
+        {primary:"Introducción a la metodología del ÉXITO",secondary:"UDEMY"},
+        {primary:"Lenguaje Corporal Asertivo: Para líderes de éxito",secondary:"UDEMY"},
+        {primary:"Oratoria y Comunicación Efectiva con PNL",secondary:"UDEMY"},
+        {primary:"Git para desarrolladores",secondary:"UDEMY"},
+        {primary:"Conceptos de la programación",secondary:"OpenBootcamp"},
     ]);
     const [aux,setAux]=useState([]);
     const [max]=useState(7);

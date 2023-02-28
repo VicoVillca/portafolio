@@ -12,11 +12,10 @@ export default function DenseAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar variant="dense">
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 0 }}>
             <CodeIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" component="div">
-          <CodeIcon />
             VicoVillca
           </Typography>
         </Toolbar>

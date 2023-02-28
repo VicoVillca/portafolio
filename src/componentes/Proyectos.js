@@ -1,81 +1,57 @@
 import * as React from "react";
-import ImageList from "@mui/material/ImageList";
-import ListSubheader from "@mui/material/ListSubheader";
 import Box from "@mui/material/Box";
-import { useMediaQuery } from "@mui/material";
-import ImageItem from "./ImageItem";
+
 //FORMULARIOS
 import Grid from "@mui/material/Grid";
 // componentes de card
 
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { Button, CardActionArea, CardActions } from "@mui/material";
-import IconButton from "@mui/material/IconButton";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import GitHubIcon from "@mui/icons-material/GitHub";
-//{"/*<ImageItem item={item} key={item.img}/>*/}
+import Button from "@mui/material/Button";
+import ButtonGroup from "@mui/material/ButtonGroup";
 //imagenes de proyectos
 import portafolio from "./images/proyectos/portafolio.png";
 import obi from "./images/proyectos/obi.png";
 import goldprice from "./images/proyectos/golgprice.png";
-import Divider from "@mui/material/Divider";
+import "../Cards.css";
 export default function Proyectos() {
-  const matches = useMediaQuery("(min-width:600px)");
   return (
-    <Box sx={{ flexGrow: 5 }}>
-      <ListSubheader component="div">Proyectos</ListSubheader>
-      <ImageList
-        cols={matches ? 3 : 1}
-        rowHeight={164}
-        sx={{ pr: 2, pl: 2 }}
-      >
+    <Box sx={{ width: '100%',height:'100%'}}>
+      
+      <h1>Proyectos</h1>
+      {/** probamos grid */}
+      <Grid container  sx={{pr:2, pl:2 }}justifyContent="center"  columns={{ xs: 4, sm: 8, md: 13 }} gap={3}>
         {itemData.map((item) => (
-          <Card
-            key={item.title}
-            sx={{ m: 1, border: " grey", borderRadius: 5 }}
-          >
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image={item.img}
-                alt="green iguana"
-              />
-            </CardActionArea>
-            <Divider light />
-            <CardActions>
-              <Grid container alignItems="center">
-                <Grid item xs>
-                  <Typography gutterBottom variant="h7" component="div">
-                    {item.title}
-                  </Typography>
-                </Grid>
+          <Grid className="card" item xs={4} sm={8} md={4} key={item.title} sx={{
+            
+            backgroundColor: (theme) =>
+              theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+          }}>
+            <img alt="green iguana" src={item.img} />
+            <div className="info">
+              <h1>{item.title}</h1>
+              <p>
+                {item.descripcion}
+              </p>
 
-                <Grid item>
-                  <IconButton
-                    edge="start"
-                    size="small"
-                    color="primary"
-                    onClick={() => window.open(item.demo)}
-                  >
-                    <OpenInNewIcon />
-                  </IconButton>
-                  <IconButton
-                    size="small"
-                    color="primary"
-                    onClick={() => window.open(item.git)}
-                  >
-                    <GitHubIcon />
-                  </IconButton>
-                </Grid>
-              </Grid>
-            </CardActions>
-          </Card>
+              <ButtonGroup
+                variant="contained"
+                aria-label="outlined primary button group"
+              >
+                <Button onClick={() => window.open(item.demo)}>
+                  <OpenInNewIcon />
+                  Demo
+                </Button>
+                <Button onClick={() => window.open(item.git)}>
+                  <GitHubIcon />
+                  Codigo
+                </Button>
+              </ButtonGroup>
+            </div>
+          </Grid>
         ))}
-      </ImageList>
+      </Grid>
+      <h1></h1>
     </Box>
   );
 }
@@ -84,18 +60,21 @@ const itemData = [
   {
     img: portafolio,
     title: "Portafolio",
+    descripcion:"My portafolio desarrollado con reactjs y gitpages",
     demo: "https://vicovillca.github.io/portafolio/",
     git: "https://github.com/VicoVillca/portafolio",
   },
   {
     img: obi,
     title: "ObiAdmin",
+    descripcion:"Sisteam de Gestion y administracion de los concursantes y tutores de la olimpiada Boliviana de informatica",
     demo: "https://obi-font-end.vercel.app/",
     git: "https://github.com/VicoVillca/Obi-FontEnd",
   },
   {
     img: goldprice,
     title: "GoldPrice",
+    descripcion:"herramienta para calcular el precio del oro para la compra segun la onza troy",
     demo: "https://vicovillca.github.io/GoldPrice",
     git: "https://github.com/VicoVillca/Obi-FontEnd",
   },
