@@ -12,7 +12,7 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 //imagenes de proyectos
 import portafolio from "./images/proyectos/portafolio.png";
 import obi from "./images/proyectos/obi.png";
-import goldprice from "./images/proyectos/golgprice.png";
+import goldprice from "./images/proyectos/goldprice.png";
 import "../Cards.css";
 export default function Proyectos() {
   return (
@@ -67,7 +67,7 @@ const itemData = [
   {
     img: obi,
     title: "ObiAdmin",
-    descripcion:"Sisteam de Gestion y administracion de los concursantes y tutores de la olimpiada Boliviana de informatica",
+    descripcion:"Sistema de gestionde los tutores coordinadores y estudiantes en OBI.",
     demo: "https://obi-font-end.vercel.app/",
     git: "https://github.com/VicoVillca/Obi-FontEnd",
   },
