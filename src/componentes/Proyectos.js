@@ -13,6 +13,7 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 import portafolio from "./images/proyectos/portafolio.png";
 import obi from "./images/proyectos/obi.png";
 import goldprice from "./images/proyectos/goldprice.png";
+import BuscaMinas from "./images/proyectos/buscaminas.png";
 import "../Cards.css";
 export default function Proyectos() {
   return (
@@ -51,7 +52,7 @@ export default function Proyectos() {
           </Grid>
         ))}
       </Grid>
-      <h1></h1>
+      <br/>
     </Box>
   );
 }
@@ -78,4 +79,12 @@ const itemData = [
     demo: "https://vicovillca.github.io/GoldPrice",
     git: "https://github.com/VicoVillca/Obi-FontEnd",
   },
+  {
+    img: BuscaMinas,
+    title: "BuscaMinas",
+    descripcion:"juego clasico desarrollado con reactjs",
+    demo: "#",
+    git: "https://github.com/VicoVillca/BuscaMinas",
+  },
+  
 ];

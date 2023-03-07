@@ -28,7 +28,7 @@ export default function Perfil() {
 
   return (
     <Grid container padding={2}>
-      <Grid item xs={12} style={{ height: "65vh", backgroundColor: "" }}>
+      <Grid item xs={12} style={{ height: "100%", backgroundColor: "" }}>
         <Stack direction="column" justifyContent="center" alignItems="center">
           <SpinningText text="Frontend * Backend * Software * Engineer * ">
             <img src={GotMilk} alt="Got Milk" />
