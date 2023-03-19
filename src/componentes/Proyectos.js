@@ -83,7 +83,7 @@ const itemData = [
     img: BuscaMinas,
     title: "BuscaMinas",
     descripcion:"juego clasico desarrollado con reactjs",
-    demo: "#",
+    demo: "https://vicovillca.github.io/BuscaMinas/",
     git: "https://github.com/VicoVillca/BuscaMinas",
   },
   
