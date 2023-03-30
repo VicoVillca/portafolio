@@ -14,6 +14,7 @@ import portafolio from "./images/proyectos/portafolio.png";
 import obi from "./images/proyectos/obi.png";
 import goldprice from "./images/proyectos/goldprice.png";
 import BuscaMinas from "./images/proyectos/buscaminas.png";
+import Restriccion from "./images/proyectos/restriccion.png";
 import "../Cards.css";
 export default function Proyectos() {
   return (
@@ -85,6 +86,13 @@ const itemData = [
     descripcion:"juego clasico desarrollado con reactjs",
     demo: "https://vicovillca.github.io/BuscaMinas/",
     git: "https://github.com/VicoVillca/BuscaMinas",
+  },
+  {
+    img: Restriccion,
+    title: "Restricción vehicular",
+    descripcion:"Restricciones de al alcaldia municipal de la paz",
+    demo: "https://vicovillca.github.io/restriccion-vehicular-lapaz/",
+    git: "https://github.com/VicoVillca/restriccion-vehicular-lapaz",
   },
   
 ];
