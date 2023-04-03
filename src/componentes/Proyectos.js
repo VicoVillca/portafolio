@@ -16,9 +16,12 @@ import goldprice from "./images/proyectos/goldprice.png";
 import BuscaMinas from "./images/proyectos/buscaminas.png";
 import Restriccion from "./images/proyectos/restriccion.png";
 import "../Cards.css";
+
 export default function Proyectos() {
   return (
-    <Box sx={{ width: '100%',height:'100%'}}>
+    <Box sx={{ width: '100%',height:'100%'}} >
+
+
       
       <h1>Proyectos</h1>
       {/** probamos grid */}

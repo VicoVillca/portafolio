@@ -13,3 +13,6 @@ https://www.youtube.com/watch?v=-xXfelCzAi4
 
 https://portafolio-web-leifermendez.herokuapp.com/
 
+# banckground animation
+https://wweb.dev/resources/animated-css-background-generator
+

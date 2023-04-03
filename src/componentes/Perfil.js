@@ -36,7 +36,7 @@ export default function Perfil() {
         </Stack>
 
         <Typography variant="subtitle2" gutterBottom sx={{ mt: 3 }}>
-          Hey,hola! 👋 Mi nombre es...
+          Hola! 👋 Mi nombre es...
         </Typography>
         <Typography className="prueba" variant="h4" gutterBottom>
           <TypeIt
