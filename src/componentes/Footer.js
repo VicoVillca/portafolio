@@ -8,7 +8,7 @@ export default function Footer() {
 
 
   return (
-    <Typography className='copyright' variant="body2" color="text.secondary" align="center" padding={1} sx={{ mt: 3}}>
+    <Typography className='copyright' variant="caption" color="text.secondary" align="center" padding={1} sx={{ mt: 3}}>
       © {new Date().getFullYear()}, creado con ❤️ por Abraham villca
      
     </Typography>
