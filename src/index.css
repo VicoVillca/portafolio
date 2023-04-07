@@ -76,8 +76,8 @@ code {
     }
 }
 
-.background {
-    position: fixed;
+.fondo {
+   
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -87,7 +87,7 @@ code {
     background: rgba(255, 255, 255, 0.2);
     overflow: hidden;
 }
-.background li {
+.fondo li {
     position: absolute;
     display: block;
     list-style: none;
@@ -100,70 +100,70 @@ code {
 
 
 
-.background li:nth-child(0) {
+.fondo li:nth-child(0) {
     left: 76%;
     width: 162px;
     height: 162px;
     bottom: -162px;
     animation-delay: 1s;
 }
-.background li:nth-child(1) {
+.fondo li:nth-child(1) {
     left: 56%;
     width: 178px;
     height: 178px;
     bottom: -178px;
     animation-delay: 2s;
 }
-.background li:nth-child(2) {
+.fondo li:nth-child(2) {
     left: 54%;
     width: 153px;
     height: 153px;
     bottom: -153px;
     animation-delay: 2s;
 }
-.background li:nth-child(3) {
+.fondo li:nth-child(3) {
     left: 2%;
     width: 147px;
     height: 147px;
     bottom: -147px;
     animation-delay: 4s;
 }
-.background li:nth-child(4) {
+.fondo li:nth-child(4) {
     left: 33%;
     width: 113px;
     height: 113px;
     bottom: -113px;
     animation-delay: 15s;
 }
-.background li:nth-child(5) {
+.fondo li:nth-child(5) {
     left: 88%;
     width: 153px;
     height: 153px;
     bottom: -153px;
     animation-delay: 12s;
 }
-.background li:nth-child(6) {
+.fondo li:nth-child(6) {
     left: 22%;
     width: 140px;
     height: 140px;
     bottom: -140px;
     animation-delay: 7s;
 }
-.background li:nth-child(7) {
+.fondo li:nth-child(7) {
     left: 83%;
     width: 187px;
     height: 187px;
     bottom: -187px;
     animation-delay: 4s;
 }
-.background li:nth-child(8) {
+.fondo li:nth-child(8) {
     left: 59%;
     width: 192px;
     height: 192px;
     bottom: -192px;
     animation-delay: 17s;
 }
-.background li:nth-child(9) {
+.fondo li:nth-child(9) {
     left: 8%;
     width: 146px;
     height: 146px;

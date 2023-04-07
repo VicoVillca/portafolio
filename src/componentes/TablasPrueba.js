@@ -87,7 +87,7 @@ const TabsList = styled(TabsListUnstyled)(
   ({ theme }) => `
 
   background-color: #3F51B5;
-  border-radius: 5px;
+
   margin-bottom: 16px;
   
   display: flex;

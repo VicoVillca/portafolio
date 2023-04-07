@@ -10,12 +10,14 @@ import ButtonAppBar from "./ButtonAppBar";
 import Tablas from "./Tablas";
 
 import TablasPrueba from "./TablasPrueba";
+import { red } from "@mui/material/colors";
 const theme = createTheme();
 
 export default function SignInSide() {
   return (
     <div>
       <ThemeProvider theme={theme}>
+ 
         <Grid container component="main" sx={{ height: "100vh" }}>
           <CssBaseline />
 
@@ -28,11 +30,12 @@ export default function SignInSide() {
             elevation={6}
             square
             sx={{ height: "100vh" }}
+            style={{border: "2px solid #3f51b5",}}
           >
             <TablasPrueba />
           </Grid>
 
-          <Grid item xs={12} sm={4} md={8}>
+          <Grid item xs={12} sm={4} md={8} style={{backgroundImage:'url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_520/MTkzOTUzODU0MDkyNjE3MjIx/particlesjs-examples.webp")',backgroundColor:red}}>
             <Box style={{ maxHeight: "100vh", overflow: "auto" }}>
               <Proyectos />
             </Box>

@@ -13,6 +13,9 @@ https://www.youtube.com/watch?v=-xXfelCzAi4
 
 # lista de portafolios
 - fernandacader.github.io
+- https://alberth.netlify.app/
+- https://portfolio-react-oscar-daniel.netlify.app/#home
+- 
 - This is [an example](fernandacader.github.io "Title") inline link.
 
 # banckground animation
