@@ -15,9 +15,11 @@ https://www.youtube.com/watch?v=-xXfelCzAi4
 - fernandacader.github.io
 - https://alberth.netlify.app/
 - https://portfolio-react-oscar-daniel.netlify.app/#home
-- 
+- https://jcarlosruiz.com/portafolio/
 - This is [an example](fernandacader.github.io "Title") inline link.
 
+# lista de sistemas 
+- https://laferminafiestasyeventos.netlify.app/
 # banckground animation
 https://wweb.dev/resources/animated-css-background-generator
 

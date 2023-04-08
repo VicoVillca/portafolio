@@ -27,7 +27,7 @@ export default function Perfil() {
   };
 
   return (
-    <Grid container padding={2} >
+    <Grid container padding={2}>
       <Grid item xs={12} style={{ height: "100%", backgroundColor: "" }}>
         <Stack direction="column" justifyContent="center" alignItems="center">
           <SpinningText text="Frontend * Backend * Software * Engineer * ">
@@ -59,8 +59,8 @@ export default function Perfil() {
         </Typography>
 
         <Typography variant="subtitle1" gutterBottom>
-          Soy un desarrollador fullstack Apacionado por la programación creando
-          proyectos de codigo abierto.
+          Soy un desarrollador Full Stack Developer Apasionado por la
+          programación creando proyectos de código abierto.
         </Typography>
 
         <Stack
