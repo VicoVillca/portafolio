@@ -30,7 +30,7 @@ export default function SignInSide() {
             elevation={6}
             square
             sx={{ height: "100vh" }}
-            style={{border: "2px solid #3f51b5",}}
+           
           >
             <TablasPrueba />
           </Grid>
