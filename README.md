@@ -16,6 +16,7 @@ https://www.youtube.com/watch?v=-xXfelCzAi4
 - https://alberth.netlify.app/
 - https://portfolio-react-oscar-daniel.netlify.app/#home
 - https://jcarlosruiz.com/portafolio/
+- https://ezequielbrito99.github.io/Portfolio/
 - This is [an example](fernandacader.github.io "Title") inline link.
 
 # lista de sistemas 
