@@ -15,6 +15,7 @@ import obi from "./images/proyectos/obi.png";
 import goldprice from "./images/proyectos/goldprice.png";
 import BuscaMinas from "./images/proyectos/buscaminas.png";
 import Restriccion from "./images/proyectos/restriccion.png";
+import Appturismo from "./images/proyectos/app-turismo.png";
 import "../Cards.css";
 
 export default function Proyectos() {
@@ -97,5 +98,11 @@ const itemData = [
     demo: "https://vicovillca.github.io/restriccion-vehicular-lapaz/",
     git: "https://github.com/VicoVillca/restriccion-vehicular-lapaz",
   },
-  
+  {
+    img: Appturismo,
+    title: "Travel La Paz.",
+    descripcion:"Aplicacion moVile generado Desarrollado en la DTIGA-GAMLP",
+    demo: "https://play.google.com/store/apps/details?id=com.gamlp.turismotravel&hl=es&gl=US",
+    git: "",
+  },  
 ];
