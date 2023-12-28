@@ -1,6 +1,6 @@
 # Portafolio
 
-Este proyecto esta generado con angular cli [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Este proyecto esta generado con Angular Cli [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 ## Development server
 
