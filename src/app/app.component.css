@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  background-color: #017e9c;
+  background-image: radial-gradient(#3f51b5, #00002b);
   background-size: cover;
   color: white;
   text-align: center;
@@ -45,7 +45,7 @@ nav ul li a {
 
 /* Estilos del pie de página */
 .footer {
-  background-color: #333;
+  background-color: #00002b;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -104,9 +104,7 @@ nav ul li a {
   filter: drop-shadow(10px 10px 5px hsla(0, 0%, 0%, 0.461));
 }
 
-section {
-  display: table;
-}
+
 
 .example-label {
   display: table-cell;
