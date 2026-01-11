@@ -1,0 +1,397 @@
+@use "./../../../../variables" as *;
+
+.proyects {
+    .proyect-card-container {
+        margin: 80px 0;
+        
+        .proyect-card {
+            background: $White;
+            border-radius: 12px;
+            box-shadow: 0 15px 40px -20px rgba(5, 99, 187, 0.2);
+            overflow: hidden;
+            transition: all 0.4s ease;
+            border: 1px solid rgba(5, 99, 187, 0.1);
+            
+            &:hover {
+                box-shadow: 0 20px 50px -20px rgba(5, 99, 187, 0.3);
+                transform: translateY(-8px);
+            }
+            
+            .card-content {
+                display: flex;
+                min-height: 400px;
+                
+                .card-media {
+                    width: 55%;
+                    padding: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: $LightestSlate;
+                    
+                    .desktop-carousel {
+                        width: 100%;
+                        display: block;
+                    }
+                    
+                    .tablet-image {
+                        display: none;
+                        width: 100%;
+                    }
+                    
+                    .img-container {
+                        width: 100%;
+                        max-height: 340px;
+                        border-radius: 8px;
+                        overflow: hidden;
+                        background: $White;
+                        border: 1px solid rgba(5, 99, 187, 0.1);
+                        box-shadow: 0 5px 15px rgba(5, 99, 187, 0.1);
+                        
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            transition: transform 0.5s ease;
+                            
+                            &:hover {
+                                transform: scale(1.02);
+                            }
+                        }
+                    }
+                }
+                
+                .card-info {
+                    width: 45%;
+                    padding: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+                    .proyect-box {
+                        .feature-proyect {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: $Green;
+                            font-family: $CodeFont;
+                            margin-bottom: 10px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                        }
+                        
+                        .proyect-name {
+                            font-size: 28px;
+                            margin: 0 0 20px;
+                            color: $Navy;
+                            font-weight: 700;
+                            line-height: 1.2;
+                        }
+                        
+                        .proyect-description-box {
+                            background-color: $Navy;
+                            color: $White;
+                            font-size: 16px;
+                            border-radius: 8px;
+                            line-height: 1.6;
+                            margin-bottom: 25px;
+                            padding: 20px;
+                            border: 1px solid rgba(5, 99, 187, 0.1);
+                            box-shadow: inset 0 2px 10px rgba(5, 99, 187, 0.05);
+                            
+                            p {
+                                margin-bottom: 0;
+                            }
+                        }
+                        
+                        .proyect-skills-container {
+                            margin-bottom: 25px;
+                            
+                            .proyect-skills {
+                                display: flex;
+                                flex-wrap: wrap;
+                                gap: 10px;
+                                padding: 0;
+                                margin: 0;
+                                list-style: none;
+                                
+                                li {
+                                    .technology {
+                                        display: inline-block;
+                                        padding: 6px 12px;
+                                        background: rgba(5, 99, 187, 0.08);
+                                        color: $LightNavy;
+                                        font-family: $CodeFont;
+                                        font-size: 13px;
+                                        border-radius: 4px;
+                                        transition: all 0.3s ease;
+                                        border: 1px solid rgba(5, 99, 187, 0.1);
+                                        
+                                        &:hover {
+                                            background: rgba(5, 99, 187, 0.15);
+                                            transform: translateY(-2px);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        .proyect-links {
+                            display: flex;
+                            gap: 15px;
+                            justify-content: center;
+                            
+                            .btn-proyect-link {
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 12px 28px;
+                                border-radius: 6px;
+                                font-family: $CodeFont;
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                cursor: pointer;
+                                transition: all 0.3s ease;
+                                min-width: 130px;
+                                
+                                i {
+                                    margin-right: 8px;
+                                    font-size: 16px;
+                                    transition: transform 0.3s ease;
+                                }
+                                
+                                .btn-text {
+                                    color: $White;
+                                }
+                                
+                                &:hover {
+                                    transform: translateY(-3px);
+                                    box-shadow: 0 8px 20px rgba(5, 99, 187, 0.25);
+                                    
+                                    i {
+                                        transform: translateX(3px);
+                                    }
+                                }
+                                
+                                &.btn-github {
+                                    background: transparent;
+                                    border: 2px solid $Navy;
+                                    color: $Navy;
+                                    
+                                    i, .btn-text {
+                                        color: $Navy;
+                                    }
+                                    
+                                    &:hover {
+                                        background: $Navy;
+                                        
+                                        i, .btn-text {
+                                            color: $White;
+                                        }
+                                    }
+                                }
+                                
+                                &.btn-demo {
+                                    background: linear-gradient(135deg, $Navy 0%, $LightNavy 100%);
+                                    color: $White;
+                                    border: none;
+                                    box-shadow: 0 4px 15px rgba(5, 99, 187, 0.2);
+                                    
+                                    &:hover {
+                                        background: linear-gradient(135deg, $LightNavy 0%, #0a5ca8 100%);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            /* Para alternar entre izquierda/derecha en desktop */
+            &.card-reverse {
+                .card-content {
+                    flex-direction: row-reverse;
+                }
+            }
+        }
+    }
+}
+
+/* Responsive para tablet */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .proyects {
+        .proyect-card-container {
+            .proyect-card {
+                .card-content {
+                    .card-media {
+                        .desktop-carousel {
+                            display: none;
+                        }
+                        
+                        .tablet-image {
+                            display: block;
+                        }
+                    }
+                    
+                    .card-info {
+                        padding: 30px;
+                        
+                        .proyect-box {
+                            .proyect-name {
+                                font-size: 24px;
+                            }
+                            
+                            .proyect-description-box {
+                                font-size: 15px;
+                                padding: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Responsive para móvil */
+@media (max-width: 767px) {
+    .proyects {
+        .proyect-card-container {
+            margin: 50px 0;
+            
+            .proyect-card {
+                .card-content {
+                    flex-direction: column;
+                    min-height: auto;
+                    
+                    .card-media {
+                        width: 100%;
+                        padding: 20px;
+                        
+                        .desktop-carousel {
+                            display: block;
+                        }
+                        
+                        .tablet-image {
+                            display: none;
+                        }
+                        
+                        .img-container {
+                            max-height: 250px;
+                        }
+                    }
+                    
+                    .card-info {
+                        width: 100%;
+                        padding: 25px;
+                        
+                        .proyect-box {
+                            .feature-proyect {
+                                text-align: center;
+                                font-size: 13px;
+                            }
+                            
+                            .proyect-name {
+                                text-align: center;
+                                font-size: 22px;
+                                margin-bottom: 15px;
+                            }
+                            
+                            .proyect-description-box {
+                                display: none;
+                            }
+                            
+                            .proyect-skills-container {
+                                display: none;
+                            }
+                            
+                            .proyect-links {
+                                flex-direction: column;
+                                align-items: center;
+                                gap: 12px;
+                                
+                                .btn-proyect-link {
+                                    width: 180px;
+                                    padding: 10px 20px;
+                                    font-size: 13px;
+                                    
+                                    i {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                &.card-reverse {
+                    .card-content {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Estilos específicos para el carrusel */
+.owl-carousel-o {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+::ng-deep .owl-theme .owl-dots {
+    margin-top: 15px !important;
+    
+    .owl-dot {
+        span {
+            background: rgba(5, 99, 187, 0.3) !important;
+            width: 10px !important;
+            height: 10px !important;
+            margin: 5px 4px !important;
+        }
+        
+        &.active span,
+        &:hover span {
+            background: $Navy !important;
+        }
+    }
+}
+
+/* Estilos generales de la sección */
+.proyects {
+    background-color: $LightestSlate;
+    padding: 80px 0;
+}
+
+.section-title {
+    color: $Navy;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 32px;
+}
+
+.n-section-title {
+    color: $Green;
+    font-family: $CodeFont;
+}
+
+/* Scrollbar personalizado */
+.img-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.img-container::-webkit-scrollbar-track {
+    background: rgba(5, 99, 187, 0.05);
+    border-radius: 3px;
+}
+
+.img-container::-webkit-scrollbar-thumb {
+    background: $LightNavy;
+    border-radius: 3px;
+}
+
+.img-container::-webkit-scrollbar-thumb:hover {
+    background: $Navy;
+}

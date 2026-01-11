@@ -1,0 +1,110 @@
+@use "../../../../variables" as *;
+
+.dynamic-btn {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  background: #0563bb; // Azul
+  color: #ffffff; // Blanco
+  font-family: $CodeFont;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(5, 99, 187, 0.3);
+
+  .btn-text {
+    color: #ffffff; // Blanco
+    transition: all 0.3s ease;
+  }
+
+  // Hover effect
+  &:hover {
+    background: #0a5ca8; // Azul más claro
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(5, 99, 187, 0.4);
+  }
+
+  // Active effect
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(5, 99, 187, 0.3);
+  }
+
+  // Disabled state
+  &.disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+    box-shadow: none;
+    
+    &:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+
+  // Secondary variant (opcional, si la necesitas)
+  &.dynamic-btn-secondary {
+    background: transparent;
+    border: 2px solid #0563bb;
+    color: #0563bb;
+    
+    .btn-text {
+      color: #0563bb;
+    }
+    
+    &:hover {
+      background: #0563bb;
+      color: #ffffff;
+      
+      .btn-text {
+        color: #ffffff;
+      }
+    }
+  }
+
+  // Small variant
+  &.dynamic-btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    
+    &:hover {
+      transform: translateY(-1px);
+    }
+  }
+
+  // Primary variant (asegurar que sea azul)
+  &.dynamic-btn-primary {
+    background: #0563bb;
+    color: #ffffff;
+    
+    .btn-text {
+      color: #ffffff;
+    }
+    
+    &:hover {
+      background: #0a5ca8;
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .dynamic-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dynamic-btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 12px;
+  }
+}

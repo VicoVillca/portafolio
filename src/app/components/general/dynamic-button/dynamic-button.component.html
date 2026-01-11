@@ -1,0 +1,15 @@
+<a
+  [href]="href"
+  [target]="target"
+  [class.disabled]="disabled"
+  [attr.aria-disabled]="disabled"
+  class="dynamic-btn"
+  [class.dynamic-btn-primary]="variant === 'primary'"
+  [class.dynamic-btn-secondary]="variant === 'secondary'"
+  [class.dynamic-btn-small]="size === 'small'"
+  (click)="onButtonClick($event)">
+
+  <!-- Texto del botón -->
+  <span class="btn-text">{{ text }}</span>
+
+</a>
