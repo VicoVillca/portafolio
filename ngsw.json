@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1768269732793,
+  "timestamp": 1768275827825,
   "index": "/postafolio/index.html",
   "assetGroups": [
     {
@@ -28,6 +28,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "/postafolio/assets/cv/CV_ABRAHAM_VILLCA_EN.pdf",
         "/postafolio/assets/cv/CV_ABRAHAM_VILLCA_ES.pdf",
         "/postafolio/assets/cv/CV_Jose_Hernandez_Espanol.pdf",
         "/postafolio/assets/cv/CV_Jose_Hernandez_Ingles.pdf",
@@ -205,6 +206,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/postafolio/assets/cv/CV_ABRAHAM_VILLCA_EN.pdf": "fde2a0ac512e6ba40330f591220498e719e6fc3d",
     "/postafolio/assets/cv/CV_ABRAHAM_VILLCA_ES.pdf": "fde2a0ac512e6ba40330f591220498e719e6fc3d",
     "/postafolio/assets/cv/CV_Jose_Hernandez_Espanol.pdf": "c0439e29396dc4c4948d16daa964f4216f99c3f2",
     "/postafolio/assets/cv/CV_Jose_Hernandez_Ingles.pdf": "c250c583bf70c5b49f26e37e8b031bb9da1b2b88",
@@ -252,7 +254,7 @@
     "/postafolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/postafolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/postafolio/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "/postafolio/assets/i18n/en.json": "e0d688d682789251206c8a5962deaabc4b4c90f8",
+    "/postafolio/assets/i18n/en.json": "d8210eb2527d154e864228399cfbdd7bfa2095fc",
     "/postafolio/assets/i18n/es.json": "0afde3a96d79495ac7787528dc811a682f37f177",
     "/postafolio/assets/icons/cv plantilla.pdf": "566ecef3024cc9a771c7c80420a3726793a1e26d",
     "/postafolio/assets/icons/folder.svg": "024e52150f03c8e0f77d17979a27ae94830678be",
