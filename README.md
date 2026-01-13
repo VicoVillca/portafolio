@@ -46,6 +46,6 @@ As I have made an attribution to Brittany, i wait you do the same with both in t
 Sorry my bad English
 
 
-# instraction for deploy
+# Instructions for deploy to GitPages
  1.- ```ng build --configuration production --base-href /portafolio/```
  2.- ```npx angular-cli-ghpages --dir=dist/vicovillca-portafolio/browser```
