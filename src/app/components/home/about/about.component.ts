@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit, ElementRef } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { AnimationsService } from 'src/app/services/animations/animations.service';
+import { LanguageService } from 'src/app/services/language/language.service';
 
 @Component({
     selector: 'app-about',
@@ -29,11 +30,13 @@ import { AnimationsService } from 'src/app/services/animations/animations.servic
 export class AboutComponent implements OnInit, AfterViewInit {
 
   isImageModalOpen = false;
+  cvName: string = "";
 
   constructor(
     public analyticsService: AnalyticsService,
     private animationsService: AnimationsService,
-    private elementRef: ElementRef
+    private elementRef: ElementRef,
+    public languageService: LanguageService
   ) { }
 
   ngOnInit(): void {
@@ -123,4 +126,12 @@ export class AboutComponent implements OnInit, AfterViewInit {
       });
     }
   }
+
+      downloadCV() {
+        this.languageService.translateService.get("Header.cvName").subscribe(val => {
+            this.cvName = val;
+            let url = window.location.href;
+            window.open(url + "/../assets/cv/" + this.cvName, "_blank");
+        });
+    }
 }

@@ -44,3 +44,8 @@ I value keeping my site open source, but as you all know, _**plagiarism is bad**
 As I have made an attribution to Brittany, i wait you do the same with both in this proyect. Thank you :)
 
 Sorry my bad English
+
+
+# instraction for deploy
+ 1.- ```ng build --configuration production --base-href /postafolio/```
+ 2.- ```npx angular-cli-ghpages --dir=dist/vicovillca-portfolio/browser```

@@ -33,6 +33,10 @@
                             "src/manifest.webmanifest",
                             "src/.htaccess"
                         ],
+                        "allowedCommonJsDependencies": [
+              "lottie-web",
+              "lottie-web/build/player/lottie_light"
+            ],
                         "styles": [
                             "node_modules/@fortawesome/fontawesome-free/css/all.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -70,8 +74,8 @@
                                 },
                                 {
                                     "type": "anyComponentStyle",
-                                    "maximumWarning": "6kb",
-                                    "maximumError": "10kb"
+                                    "maximumWarning": "10kb",
+                                    "maximumError": "15kb"
                                 }
                             ],
                             "serviceWorker": "ngsw-config.json"

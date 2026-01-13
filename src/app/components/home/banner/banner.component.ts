@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit, ElementRef, OnDestroy } from '@angula
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { LoadingService } from 'src/app/services/loading/loading.service';
 import { Subscription } from 'rxjs';
+import { LanguageService } from 'src/app/services/language/language.service';
 
 // Configuración centralizada de animaciones
 interface AnimationConfig {
@@ -38,10 +39,13 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
   private loadingSubscription?: Subscription;
   private videoElement?: HTMLVideoElement;
 
+  cvName: string = "";
+
   constructor(
     public analyticsService: AnalyticsService,
     private elementRef: ElementRef,
-    private loadingService: LoadingService
+    private loadingService: LoadingService,
+    public languageService: LanguageService
   ) { }
 
   ngOnInit(): void {
@@ -321,4 +325,13 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
       });
     });
   }
+
+
+    downloadCV() {
+        this.languageService.translateService.get("Header.cvName").subscribe(val => {
+            this.cvName = val;
+            let url = window.location.href;
+            window.open(url + "/../assets/cv/" + this.cvName, "_blank");
+        });
+    }
 }

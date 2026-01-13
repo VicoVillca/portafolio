@@ -63,7 +63,11 @@
                     </div>
                     <!-- Certificaciones -->
     <div class="certifications-section ">
-        <h3 class="certifications-title">Certifications</h3>
+        <h3 class="certifications-title">                <button class="btn btn-primary cv-download-btn" 
+                        (click)="downloadCV()"
+                        (click)='analyticsService.sendAnalyticEvent("download_cv", "menu", "click")'>
+                    <i class="fas fa-download me-5"></i>{{"Header.cvBtn" | translate}}
+                </button></h3>
         
         <div class="certifications-logos d-flex justify-content-center align-items-center gap-4">
             <!-- ScrumStudy -->

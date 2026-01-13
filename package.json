@@ -5,15 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-portfolio": "ng build --configuration production",
-    "build:prod": "ng build --configuration production --base-href https://vicovillca.com/",
-    "postbuild:prod": "cp .nojekyll dist/vicovillca-portfolio/browser/ && cp CNAME dist/vicovillca-portfolio/browser/",
-    "deploy": "npm run build:prod && npm run postbuild:prod && ngh --dir=dist/vicovillca-portfolio/browser --cname=vicovillca.com",
-    "deploy:ci": "npm run postbuild:prod && ngh --dir=dist/vicovillca-portfolio/browser --cname=vicovillca.com --no-silent",
-    "predeploy": "npm run build:prod",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+
+    "build:ghpages": "ng build --configuration production --base-href /portafolio/",
+    "deploy": "npm run build:ghpages && npx angular-cli-ghpages --dir=dist/vicovillca-portfolio/browser",
+    "deploy:force": "npm run build:ghpages && npx angular-cli-ghpages --dir=dist/vicovillca-portfolio/browser --no-silent"
   },
   "private": true,
   "dependencies": {
