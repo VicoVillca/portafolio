@@ -47,5 +47,5 @@ Sorry my bad English
 
 
 # instraction for deploy
- 1.- ```ng build --configuration production --base-href /postafolio/```
- 2.- ```npx angular-cli-ghpages --dir=dist/vicovillca-portfolio/browser```
+ 1.- ```ng build --configuration production --base-href /portafolio/```
+ 2.- ```npx angular-cli-ghpages --dir=dist/vicovillca-portafolio/browser```

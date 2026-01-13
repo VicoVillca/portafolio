@@ -15,7 +15,7 @@ import { LoadingService } from './services/loading/loading.service';
     standalone: false
 })
 export class AppComponent implements OnInit, OnDestroy{
-  title = 'vicovillca-portfolio';
+  title = 'vicovillca-portafolio';
   appContentVisible = false;
   private lenis: Lenis;
 

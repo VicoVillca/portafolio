@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal portfolio website built with Angular 20, featuring a bilingual (Spanish/English) single-page application with PWA capabilities. The portfolio showcases projects, experience, and contact information with smooth animations and responsive design.
+This is a personal portafolio website built with Angular 20, featuring a bilingual (Spanish/English) single-page application with PWA capabilities. The portafolio showcases projects, experience, and contact information with smooth animations and responsive design.
 
 ## Essential Development Commands
 
@@ -17,7 +17,7 @@ npm start
 ### Build Commands
 ```bash
 npm run build                # Standard build
-npm run build-portfolio      # Production build (alias)
+npm run build-portafolio      # Production build (alias)
 npm run build:prod           # Production build with base-href for GitHub Pages
 npm run deploy               # Build and deploy to GitHub Pages
 npm run deploy:ci            # CI-specific deploy command

@@ -149,7 +149,7 @@
   },
   {
     "Title": "My Portfolio",
-    "Description": "Professional portfolio with responsive design and fluid animations. Developed with Angular and deployed on GitHub Pages, includes Lottie animations for a modern user experience.",
+    "Description": "Professional portafolio with responsive design and fluid animations. Developed with Angular and deployed on GitHub Pages, includes Lottie animations for a modern user experience.",
     "imgs": [
       "assets/images/proyectos/portafolio1.png",
       "assets/images/proyectos/portafolio2.png",

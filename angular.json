@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "vicovillca-portfolio": {
+        "vicovillca-portafolio": {
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -20,7 +20,7 @@
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
                         "outputPath": {
-                          "base": "dist/vicovillca-portfolio"
+                          "base": "dist/vicovillca-portafolio"
                         },
                         "index": "src/index.html",
                         "polyfills": [
@@ -86,18 +86,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                      "buildTarget": "vicovillca-portfolio:build"
+                      "buildTarget": "vicovillca-portafolio:build"
                     },
                     "configurations": {
                         "production": {
-                          "buildTarget": "vicovillca-portfolio:build:production"
+                          "buildTarget": "vicovillca-portafolio:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "vicovillca-portfolio:build"
+                      "buildTarget": "vicovillca-portafolio:build"
                     }
                 },
                 "test": {
@@ -135,11 +135,11 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "vicovillca-portfolio:serve"
+                        "devServerTarget": "vicovillca-portafolio:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "vicovillca-portfolio:serve:production"
+                            "devServerTarget": "vicovillca-portafolio:serve:production"
                         }
                     }
                 }
