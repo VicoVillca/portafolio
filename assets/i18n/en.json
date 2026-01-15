@@ -8,7 +8,7 @@
   "Loading": "Loading...",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "IT Professional with expertise in developing technological solutions. Specialized in <span class='underline'>backend</span>, <span class='underline'>frontend</span>, <span class='underline'>UI/UX</span>, <span class='underline'>database</span>, and <span class='underline'>deployment</span>, always keeping the end user in mind. Experience as <span class='underline'>Product Owner</span> and <span class='underline'>Tech Lead</span> leading technical teams.",
+  "Banner.Description": "Full-stack developer with experience in <span class='underline'>Kotlin, Java (Spring Boot), Node.js, Angular, and React</span>, building <span class='underline'>scalable applications</span> using <span class='underline'>Onion Architecture and Microservices</span>, with a strong focus on <span class='underline'>code quality, UI/UX, and deployment with Docker</span>.",
   "Banner.ActionBtn": "Say Hi",
 
   "AboutMe.Title": "About Me",

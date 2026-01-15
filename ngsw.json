@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1768276604700,
+  "timestamp": 1768495182544,
   "index": "/portafolio/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/portafolio/favicon.ico",
         "/portafolio/index.html",
-        "/portafolio/main-BOGIMYDY.js",
+        "/portafolio/main-G2ZMCTH5.js",
         "/portafolio/manifest.webmanifest",
         "/portafolio/polyfills-MBBJUXFA.js",
-        "/portafolio/styles-IC5ONEGP.css"
+        "/portafolio/styles-64V54ELX.css"
       ],
       "patterns": []
     },
@@ -206,8 +206,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/portafolio/assets/cv/CV_ABRAHAM_VILLCA_EN.pdf": "fde2a0ac512e6ba40330f591220498e719e6fc3d",
-    "/portafolio/assets/cv/CV_ABRAHAM_VILLCA_ES.pdf": "fde2a0ac512e6ba40330f591220498e719e6fc3d",
+    "/portafolio/assets/cv/CV_ABRAHAM_VILLCA_EN.pdf": "d39de9823e64ef9c8c3273ef8215af14c4d89e02",
+    "/portafolio/assets/cv/CV_ABRAHAM_VILLCA_ES.pdf": "d39de9823e64ef9c8c3273ef8215af14c4d89e02",
     "/portafolio/assets/cv/CV_Jose_Hernandez_Espanol.pdf": "c0439e29396dc4c4948d16daa964f4216f99c3f2",
     "/portafolio/assets/cv/CV_Jose_Hernandez_Ingles.pdf": "c250c583bf70c5b49f26e37e8b031bb9da1b2b88",
     "/portafolio/assets/fonts/Calibre/Calibre-Light.ttf": "8eccfc3783b04d13dec5887a15c3e00fd28bef7c",
@@ -254,8 +254,8 @@
     "/portafolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/portafolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/portafolio/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "/portafolio/assets/i18n/en.json": "3215e1ded79f272dce13b3c94d37a750b7b8f193",
-    "/portafolio/assets/i18n/es.json": "0afde3a96d79495ac7787528dc811a682f37f177",
+    "/portafolio/assets/i18n/en.json": "767e72cbf3da569a02069e8dc0d7267c7df9b49e",
+    "/portafolio/assets/i18n/es.json": "ef6fc82669ed1dfbf0e20a477198e6b0e63a83e1",
     "/portafolio/assets/icons/cv plantilla.pdf": "566ecef3024cc9a771c7c80420a3726793a1e26d",
     "/portafolio/assets/icons/folder.svg": "024e52150f03c8e0f77d17979a27ae94830678be",
     "/portafolio/assets/icons/icon-128x128.png": "6ec621358618a961643b4ad9552b2e181e72ac8e",
@@ -379,11 +379,11 @@
     "/portafolio/assets/images/vasaviation/capture5.png": "0d2c4b52a52de08ead007aa5e4ea28c2cf45ca45",
     "/portafolio/assets/lotties/loader.json": "2766ab688f8b10bdaca3c8215141db5956339b49",
     "/portafolio/favicon.ico": "d6909f1ed1b2735a3f562d0f2c6bcad657b73181",
-    "/portafolio/index.html": "bb67062314dbff16c4ed545069d36097a869f619",
-    "/portafolio/main-BOGIMYDY.js": "8246a56b2608fec969a574df7abfac2bb890717a",
+    "/portafolio/index.html": "e9abddf09c4578cf378ac21e3b5d13e8fcca84a8",
+    "/portafolio/main-G2ZMCTH5.js": "87b61cacac11f94d2005fa9ce62d4c2c4e629ccf",
     "/portafolio/manifest.webmanifest": "860e221995d32cd8ed2799f849e2f1d843625f01",
     "/portafolio/polyfills-MBBJUXFA.js": "da78f8bb4828fe136fc75489cb641e99fcd02429",
-    "/portafolio/styles-IC5ONEGP.css": "a699a3d0e820169d11ca499517df1ff284e1c9d3"
+    "/portafolio/styles-64V54ELX.css": "43695013dc21ba12006e75dc9aed0a86f027fd4b"
   },
   "navigationUrls": [
     {
