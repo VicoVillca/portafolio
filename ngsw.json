@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1768495182544,
+  "timestamp": 1768617379313,
   "index": "/portafolio/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/portafolio/favicon.ico",
         "/portafolio/index.html",
-        "/portafolio/main-G2ZMCTH5.js",
+        "/portafolio/main-KWGCO7ZO.js",
         "/portafolio/manifest.webmanifest",
         "/portafolio/polyfills-MBBJUXFA.js",
         "/portafolio/styles-64V54ELX.css"
@@ -254,8 +254,8 @@
     "/portafolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/portafolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/portafolio/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "/portafolio/assets/i18n/en.json": "767e72cbf3da569a02069e8dc0d7267c7df9b49e",
-    "/portafolio/assets/i18n/es.json": "ef6fc82669ed1dfbf0e20a477198e6b0e63a83e1",
+    "/portafolio/assets/i18n/en.json": "b5e196e65061ce1b4627f70db5743261ee4c0905",
+    "/portafolio/assets/i18n/es.json": "55b02cca57589a0d2b077058f7144d46530cab8d",
     "/portafolio/assets/icons/cv plantilla.pdf": "566ecef3024cc9a771c7c80420a3726793a1e26d",
     "/portafolio/assets/icons/folder.svg": "024e52150f03c8e0f77d17979a27ae94830678be",
     "/portafolio/assets/icons/icon-128x128.png": "6ec621358618a961643b4ad9552b2e181e72ac8e",
@@ -379,8 +379,8 @@
     "/portafolio/assets/images/vasaviation/capture5.png": "0d2c4b52a52de08ead007aa5e4ea28c2cf45ca45",
     "/portafolio/assets/lotties/loader.json": "2766ab688f8b10bdaca3c8215141db5956339b49",
     "/portafolio/favicon.ico": "d6909f1ed1b2735a3f562d0f2c6bcad657b73181",
-    "/portafolio/index.html": "e9abddf09c4578cf378ac21e3b5d13e8fcca84a8",
-    "/portafolio/main-G2ZMCTH5.js": "87b61cacac11f94d2005fa9ce62d4c2c4e629ccf",
+    "/portafolio/index.html": "f999379e0c4a174ceeecc2a95fabe7fef4c0dbd8",
+    "/portafolio/main-KWGCO7ZO.js": "0202ca7a545e9644e5dd6aad52b7ee3e7886ce70",
     "/portafolio/manifest.webmanifest": "860e221995d32cd8ed2799f849e2f1d843625f01",
     "/portafolio/polyfills-MBBJUXFA.js": "da78f8bb4828fe136fc75489cb641e99fcd02429",
     "/portafolio/styles-64V54ELX.css": "43695013dc21ba12006e75dc9aed0a86f027fd4b"
