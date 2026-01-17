@@ -18,6 +18,11 @@
   ],
 
   "Experience.Title": "Experiencia",
+  "Skills.Architecture": "Arquitectura",
+  "Skills.Backend": "Backend",
+  "Skills.Frontend": "Frontend",
+  "Skills.Mobile": "Móvil / Multiplataforma",
+  "Skills.DevOps": "DevOps",
   "Experience.Jobs": [
     {
       "Tab": "Global",
