@@ -1,0 +1,76 @@
+<section class="section proyects" id='proyects'>
+    <div class="container">
+        <div class="section-box">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="section-title">
+                    <span class='n-section-title'>02.</span> {{"FeatureProjects.Title" | translate}}
+                </h3>
+            </div>
+
+            <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index' 
+                 class="proyect-card-container" 
+                 data-aos="fade-up" 
+                 data-aos-duration="1000">
+                
+                <div class="proyect-card" [class.card-reverse]="i%2!=0">
+                    
+                    <!-- Contenido de la card -->
+                    <div class="card-content">
+                        
+                        <!-- Carrusel o imagen -->
+                        <div class="card-media">
+                            <div class="desktop-carousel">
+                                <owl-carousel-o class='owl-carousel-o' [options]="customOptions">
+                                    <ng-container *ngFor="let img of project.imgs; let imgIndex = index">
+                                        <ng-template carouselSlide [id]="project.Title+'_slide_'+i+'_'+imgIndex">
+                                            <div class='img-container'>
+                                                <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title">
+                                            </div>
+                                        </ng-template>
+                                    </ng-container>
+                                </owl-carousel-o>
+                            </div>
+                            
+                            <div class="tablet-image">
+                                <div class="img-container">
+                                    <img class='img-feature-proyect rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Información del proyecto -->
+                        <div class="card-info">
+                            <div class="proyect-box">
+                                <h5 class="proyect-name">{{project.Title}}</h5>
+
+                                <div class="proyect-description-box">
+                                    <p class="mb-0" [innerHTML]="project.Description"></p>
+                                </div>
+                                
+                                <div class="proyect-skills-container">
+                                    <ul class="proyect-skills">
+                                        <li *ngFor='let technology of project.Technologies'>
+                                            <span class="technology">{{technology}}</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="proyect-links">
+                                    <a *ngIf="project['ghLink']" class="btn-proyect-link btn-github" [href]="project['ghLink']" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                        <span class="btn-text">GitHub</span>
+                                    </a>
+                                    <a *ngIf="project['demoLink']" class="btn-proyect-link btn-demo" [href]="project['demoLink']" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        <span class="btn-text">Demo</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

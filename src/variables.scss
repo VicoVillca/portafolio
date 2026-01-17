@@ -1,0 +1,13 @@
+/* Paleta clara con #0563bb como color principal */
+$Navy         : #0563bb;        /* Color principal - botones, links, acentos */
+$LightNavy    : #1e88e5;        /* Azul más claro para hover/efectos */
+$LightestNavy : #64b5f6;        /* Azul muy claro para fondos sutiles */
+$Slate        : #545c64;        /* Texto principal - gris azulado amigable */
+$LightSlate   : #ffffff;        /* Texto secundario */
+$LightestSlate: #f8f9fa;        /* Fondo muy claro */
+$White        : #ffffff;        /* Fondo principal blanco */
+$Green        : #0563bb;        /* Naranja coral para CTA y destacados */
+$GreenOpacity : rgba(255, 107, 53, 0.1);
+
+$MainFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+$CodeFont: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Monaco, Consolas, monospace;

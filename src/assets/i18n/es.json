@@ -1,0 +1,302 @@
+{
+  "Header.Item1": "Acerca de mí",
+  "Header.Item2": "Experiencia",
+  "Header.Item3": "Proyectos",
+  "Header.Item4": "Contacto",
+  "Header.cvBtn": "Curriculum",
+  "Header.cvName": "CV_ABRAHAM_VILLCA_ES.pdf",
+  "Loading": "Cargando...",
+
+  "Banner.Pretitle": "Hola! Mi nombre es",
+"Banner.Description": "Desarrollador full-stack con experiencia en <span class='underline'>Kotlin</span>, Java (Spring Boot), Node.js, Angular y React, construcción de <span class='underline'>aplicaciones escalables</span> con <span class='underline'>Arquitectura Onion</span> y Microservicios, y enfoque en calidad de código, UI/UX y despliegue con Docker.",
+  "Banner.ActionBtn": "Salúdame",
+
+  "AboutMe.Title": "Acerca de mí",
+  "AboutMe.Paragraphs": [
+    "Me considero una persona curiosa y cooperativa. Me encanta aportar mis conocimientos para crear soluciones innovadoras que resuelvan problemas reales y agreguen valor.",
+    "A lo largo de mi carrera, he tenido la oportunidad de trabajar con diversas tecnologías modernas:"
+  ],
+
+  "Experience.Title": "Experiencia",
+  "Skills.Architecture": "Arquitectura",
+  "Skills.Backend": "Backend",
+  "Skills.Frontend": "Frontend",
+  "Skills.Mobile": "Móvil / Multiplataforma",
+  "Skills.DevOps": "DevOps",
+  "Experience.Jobs": [
+    {
+      "Tab": "Global",
+      "Title": "Fullstack developer",
+      "Date": "Mayo 2023",
+      "Description": [
+        "Líder en la toma de decisiones técnicas",
+        "Contratación de talento técnico para la empresa",
+        "Líder de equipo del departamento de tecnología",
+        "Creación y mantenimiento de una plataforma de gestión de procesos internos para ventas de cursos",
+        "Programación de funciones y plugins personalizados para personalización de una plataforma de WordPress",
+        "Implementación de integración continua y respaldos diarios.",
+        "Reuniones de planificación en informes."
+      ]
+    },
+    {
+      "Tab": "Proyex",
+      "Title": "Fullstack developer",
+      "Date": "Diciembre 2019 - Mayo 2023",
+      "Description": [
+        "Creación y mantenimiento de una plataforma de monitoreo con gráficos en Wordpress.",
+        "Programación funcional en plantillas y plugins para añadir las características necesarias de monitoreo.",
+        "Implementación de integración continua y respaldos diarios.",
+        "Creación y mantenimiento de una segunda plataforma de Monitoreo Realizada en Angular, Angular Material, Laravel, Mysql, RxJS, Sass con gráficos (configurables), sistema de alarmas, y gestión de usuarios y configuración de parámetros generales.",
+        "Reuniones de planificación en informes."
+      ]
+    },
+    {
+      "Tab": "Freelancer",
+      "Title": "Independiente",
+      "Date": "Mayo 2016 - Actualidad",
+      "Description": [
+        "Implementación de mejoras continuas, trabajando en frontend y backend.",
+        "Creación de plataformas con Angular, Laravel, WordPress programadas con paradigmas de programación funcional, reactiva y orientada a objetos.",
+        "Automatización de procesos con estructuras de datos.",
+        "Maquetación de diseños con SASS, Bootstrap, Materialize, Bulma, etc."
+      ]
+    },
+    {
+      "Tab": "Moebius",
+      "Title": "FullStack developer",
+      "Date": "Julio 2017 - Octubre 2018",
+      "Description": [
+        "Liderando un equipo de 4 personas en el desarrollo de una plataforma de gestión de Datos de turismo hecha en Angular, Laravel y MySQL. ",
+        "Implementación de CI/CD en Azure. Refactorizando y optimizando tiempos de carga de la aplicación.",
+        "Codificación de peticiones a API con RxJS.",
+        "Creación de módulos con formularios reactivos complejos",
+        "Redacción de informes semanales acerca de metas y planes."
+      ]
+    },
+    {
+      "Tab": "TechLatam",
+      "Title": "Frontend developer",
+      "Date": "Febrero 2016 - Mayo 2017",
+      "Description": [
+        "Creación de plantillas de WordPress con ACF, programación funcional en JavaScript / jQuery, estilos en SASS",
+        "Integración de mejoras en diseño y tiempos de carga de plantillas.",
+        "Comunicación efectiva con equipo de diseño, trabajando con Avocode / Figma"
+      ]
+    },
+    {
+      "Tab": "CANTV",
+      "Title": "Analista de sistema",
+      "Date": "Noviembre 2015 - Diciembre 2016",
+      "Description": [
+        "Programación de nuevas funcionalidades para una plataforma de gestión de empleados existente realizada en Angular y ExpressJS",
+        "Realizar refactorización de código antiguo. Asegurar la compatibilidad de cada dependencia en cada actualización, junto también con la actualización regular de Angular."
+      ]
+    },
+    {
+      "Tab": "IEP",
+      "Title": "Profesor de Inglés",
+      "Date": "Enero 2015 - Julio 2015",
+      "Description": [
+        "Enseñando inglés a nivel básico a una matrícula de más de 200 alumnos."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Mis proyectos",
+  "FeatureProjects.Label": "Proyecto Destacado",
+  "FeatureProjects.Projects": [
+  {
+    "Title": "ObiAdmin",
+    "Description": "Sistema integral de gestión educativa para seguimiento de tutores, coordinadores y estudiantes. Arquitectura full-stack con autenticación JWT, despliegue en contenedores Docker y base de datos PostgreSQL.",
+    "imgs": [
+      "assets/images/proyectos/obi1.png",
+      "assets/images/proyectos/obi2.png",
+      "assets/images/proyectos/obi3.png",
+      "assets/images/proyectos/obi4.png"
+    ],
+    "demoLink": "https://obi-font-end.vercel.app/",
+    "ghLink": "",
+    "Technologies": ["React.js", "NodeJS", "ExpressJS", "Docker", "JWT", "PostgreSQL", "MUI", "Axios", "Vercel", "Heroku"]
+  },
+  {
+    "Title": "Sicomel",
+    "Description": "Sistema Comercial Eléctrico desarrollado para ENDE Corporación con microservicios y microfrontends. Actualiza el servicio de facturación para las diferentes regionales utilizando Spring Boot, Angular Federation y Eureka.",
+    "imgs": [
+      "assets/images/proyectos/sicomel1.png",
+      "assets/images/proyectos/sicomel2.png",
+      "assets/images/proyectos/sicomel3.png"
+    ],
+    "demoLink": "",
+    "ghLink": "",
+    "Technologies": ["Microservicios", "Microfrontends", "Spring Boot", "Angular", "Federation", "Git Cloud", "Eureka", "PostgreSQL", "JPA", "Java"]
+  },
+  {
+    "Title": "IGOP Plus",
+    "Description": "Centralizador de servicios que integra todos los diferentes sistemas que se ejecutan dentro de la Alcaldía Municipal de La Paz. Desarrollado con Next.js y arquitectura moderna.",
+    "imgs": [
+      "assets/images/proyectos/igop_plus.png"
+    ],
+    "demoLink": "",
+    "ghLink": "",
+    "Technologies": ["Next.js", "JWT", "JSON", "Angular", "Node.js", "TypeScript", "API Integration"]
+  },
+  {
+    "Title": "Travel La Paz",
+    "Description": "Aplicación móvil turística desarrollada para la ciudad de La Paz con guía de lugares turísticos y recomendaciones. Incluye mapas interactivos con Leaflet y sistema de autenticación.",
+    "imgs": [
+      "assets/images/proyectos/travel-lapaz1.png",
+      "assets/images/proyectos/travel-lapaz2.png",
+      "assets/images/proyectos/travel-lapaz3.jpg"
+    ],
+    "demoLink": "https://play.google.com/store/apps/details?id=com.gamlp.turismotravel&hl=es_419",
+    "ghLink": "",
+    "Technologies": ["Next.js", "Flutter", "JWT", "Leaflet.js", "Mobile Development", "TypeScript", "React Native"]
+  },
+  {
+    "Title": "Mi Portafolio",
+    "Description": "Portafolio profesional con diseño responsive y animaciones fluidas. Desarrollado con Angular y desplegado en GitHub Pages, incluye animaciones Lottie para una experiencia de usuario moderna.",
+    "imgs": [
+      "assets/images/proyectos/portafolio1.png",
+      "assets/images/proyectos/portafolio2.png",
+      "assets/images/proyectos/portafolio3.png"
+    ],
+    "demoLink": "https://tusitio.com",
+    "ghLink": "",
+    "Technologies": ["Angular", "Bootstrap", "Lottie", "GitHub Pages", "CSS3", "HTML5", "TypeScript"]
+  },
+  {
+    "Title": "Code Organizer",
+    "Description": "Herramienta de formateo y optimización de código Java. Automatiza la organización de indentación, funciones y espacios usando expresiones regulares, mejorando la legibilidad del código.",
+    "imgs": [
+      "assets/images/proyectos/code_organizer1.png",
+      "assets/images/proyectos/code_organizer2.png"
+    ],
+    "demoLink": "https://vicovillca.github.io/RegexCodeOrganizer/",
+    "ghLink": "",
+    "Technologies": ["Angular", "PrimeNG", "Regex", "TypeScript", "JavaScript", "Java"]
+  },
+  {
+    "Title": "JSON Viewer",
+    "Description": "Visualizador interactivo de estructuras JSON con navegación en árbol. Permite expandir/colapsar nodos, búsqueda de elementos y exportación de datos estructurados.",
+    "imgs": [
+      "assets/images/proyectos/json_viewer1.png",
+      "assets/images/proyectos/json_viewer2.png"
+    ],
+    "demoLink": "https://vicovillca.github.io/json-viewer/",
+    "ghLink": "",
+    "Technologies": ["Angular", "PrimeNG", "JSON", "TypeScript", "CSS3", "Data Visualization"]
+  },
+  {
+    "Title": "Restricción Vehicular",
+    "Description": "Aplicación web para consultar restricciones vehiculares en tiempo real en La Paz. Integra mapas interactivos con Leaflet.js y datos geolocalizados para una experiencia intuitiva.",
+    "imgs": [
+      "assets/images/proyectos/restriccion_vehicular1.png",
+      "assets/images/proyectos/restriccion_vehicular2.png"
+    ],
+    "demoLink": "https://vicovillca.github.io/restriccion-vehicular-lapaz/",
+    "ghLink": "",
+    "Technologies": ["React", "Leaflet", "JSON", "JavaScript", "CSS3", "Geolocation"]
+  },
+  {
+    "Title": "GoldPrice Calculator",
+    "Description": "Calculadora financiera en tiempo real para determinar el valor del oro basado en el precio de la onza troy. Integra API de tasas de cambio y permite conversiones instantáneas.",
+    "imgs": [
+      "assets/images/proyectos/goldprice1.png",
+      "assets/images/proyectos/goldprice2.png",
+      "assets/images/proyectos/goldprice3.png",
+      "assets/images/proyectos/goldprice4.png"
+    ],
+    "demoLink": "https://vicovillca.github.io/GoldPrice/",
+    "ghLink": "",
+    "Technologies": ["Angular", "Firebase", "API Integration", "TypeScript", "CSS3", "Finance"]
+  },
+  {
+    "Title": "Ruleta Mágica",
+    "Description": "Generador aleatorio interactivo para toma de decisiones. Permite crear ruletas personalizadas con sonidos, animaciones y efectos visuales para sorteos o selección aleatoria.",
+    "imgs": [
+      "assets/images/proyectos/ruleta_magica1.png",
+      "assets/images/proyectos/ruleta_magica2.png",
+      "assets/images/proyectos/ruleta_magica3.png"
+    ],
+    "demoLink": "https://vicovillca.github.io/ruleta-aleatoria/",
+    "ghLink": "",
+    "Technologies": ["Angular", "PrimeNG", "Sounds", "TypeScript", "CSS3 Animations", "Interactive Design"]
+  },
+  {
+    "Title": "Quiz Explosivo",
+    "Description": "Juego de preguntas y respuestas con mecánica de tiempo limitado y penalizaciones aleatorias. Combina aprendizaje con diversión mediante desafíos interactivos.",
+    "imgs": [
+      "assets/images/proyectos/quiz_explosivo1.png",
+      "assets/images/proyectos/quiz_explosivo2.png",
+      "assets/images/proyectos/quiz_explosivo3.png"
+    ],
+    "demoLink": "https://vicovillca.github.io/QuizExplosivo/",
+    "ghLink": "",
+    "Technologies": ["Angular", "PrimeNG", "Sounds", "Timers", "TypeScript", "Gamification"]
+  },
+  {
+    "Title": "Buscaminas",
+    "Description": "Versión interactiva del clásico juego Buscaminas con mecánicas innovadoras. Incluye sistema de penalizaciones dinámicas, efectos de sonido inmersivos y múltiples niveles de dificultad.",
+    "imgs": [
+      "assets/images/proyectos/buscaminas1.png",
+      "assets/images/proyectos/buscaminas2.png"
+    ],
+    "demoLink": "https://vicovillca.github.io/BuscaMinas/",
+    "ghLink": "",
+    "Technologies": ["React", "Sound", "JavaScript", "CSS3", "Game Logic", "Game Development"]
+  }
+],
+
+  "OtherProjects.Title": "Más proyectos",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Hands game",
+      "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en Angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/vicovillca/hands-game",
+      "demoLink": "https://proyectos.vicovillca.com/hands-game",
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+    },
+    {
+      "Title": "Countries viewer",
+      "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Además cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/vicovillca/countries-viewer",
+      "demoLink": "https://proyectos.vicovillca.com/countries-viewer",
+      "Technologies": ["Angular", "RxJS", "SASS", "API"]
+    },
+    {
+      "Title": "Four card feature section",
+      "Description": "Una sola página que cuenta con un diseño minimalista que enumera 4 características en 4 cards. Se usan animaciones de entrada con Angular animations.",
+      "ghLink": "https://github.com/vicovillca/fourd-card-feature-section",
+      "demoLink": "https://proyectos.vicovillca.com/four-card-feature-section",
+      "Technologies": ["Angular", "SASS", "CSS GRID"]
+    },
+    {
+      "Title": "Social proof section",
+      "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en Figma. Se utilizó Angular para el desarrollo junto con SASS y CSS GRID.",
+      "ghLink": "https://github.com/vicovillca/social-proof-section",
+      "demoLink": "https://proyectos.vicovillca.com/social-proof-section",
+      "Technologies": ["Angular", "CSS GRID", "GIT"]
+    },
+    {
+      "Title": "FAQ accordion card",
+      "Description": "Acordeón de preguntas frecuentes con lógica y animaciones realizadas en Angular.",
+      "ghLink": "https://github.com/vicovillca/faq-accordion",
+      "demoLink": "https://proyectos.vicovillca.com/faq-accordion",
+      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+    },
+    {
+      "Title": "Profile card",
+      "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
+      "ghLink": "https://github.com/vicovillca/profile-card-component",
+      "demoLink": "https://proyectos.vicovillca.com/profile-card-component",
+      "Technologies": ["Angular", "SASS", "GIT"]
+    }
+  ],
+
+  "Contact.Pretitle": "Y... ¿Ahora?",
+  "Contact.Title": "¡Salúdame!",
+  "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
+  "Contact.Btn": "Contactame"
+}

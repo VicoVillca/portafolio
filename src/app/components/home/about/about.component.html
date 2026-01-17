@@ -1,0 +1,185 @@
+<section class="section about" id='about' (keydown)="onKeyDown($event)" tabindex="0">
+    <div class="container">
+        <div class="section-box">
+            <div class="about-title" data-animate="slideInUp" data-animate-duration="1000">
+                <h3 class="section-title">
+                    <span class='n-section-title'>01.</span> {{"AboutMe.Title" | translate}}
+                </h3>
+            </div>
+            <div class="row">
+
+                                <div class="col-12 col-md-6 mt-md-0 text-center">
+                    <div class="about-img-container">
+                        <div class="spinning-text-wrapper mt-6">
+                            <div class="spinning-text">
+                                <p>
+                                    <span style="transform: rotate(0deg)">F</span><span
+                                        style="transform: rotate(8.37209deg)">r</span><span
+                                        style="transform: rotate(16.7442deg)">o</span><span
+                                        style="transform: rotate(25.1163deg)">n</span><span
+                                        style="transform: rotate(33.4884deg)">t</span><span
+                                        style="transform: rotate(41.8605deg)">e</span><span
+                                        style="transform: rotate(50.2326deg)">n</span><span
+                                        style="transform: rotate(58.6047deg)">d</span><span
+                                        style="transform: rotate(66.9767deg)"> </span><span
+                                        style="transform: rotate(75.3488deg)">*</span><span
+                                        style="transform: rotate(83.7209deg)"> </span><span
+                                        style="transform: rotate(92.093deg)">B</span><span
+                                        style="transform: rotate(100.465deg)">a</span><span
+                                        style="transform: rotate(108.837deg)">c</span><span
+                                        style="transform: rotate(117.209deg)">k</span><span
+                                        style="transform: rotate(125.581deg)">e</span><span
+                                        style="transform: rotate(133.953deg)">n</span><span
+                                        style="transform: rotate(142.326deg)">d</span><span
+                                        style="transform: rotate(150.698deg)"> </span><span
+                                        style="transform: rotate(159.07deg)">*</span><span
+                                        style="transform: rotate(167.442deg)"> </span><span
+                                        style="transform: rotate(175.814deg)">S</span><span
+                                        style="transform: rotate(184.186deg)">o</span><span
+                                        style="transform: rotate(192.558deg)">f</span><span
+                                        style="transform: rotate(200.93deg)">t</span><span
+                                        style="transform: rotate(209.302deg)">w</span><span
+                                        style="transform: rotate(217.674deg)">a</span><span
+                                        style="transform: rotate(226.047deg)">r</span><span
+                                        style="transform: rotate(234.419deg)">e</span><span
+                                        style="transform: rotate(242.791deg)"> </span><span
+                                        style="transform: rotate(251.163deg)">*</span><span
+                                        style="transform: rotate(259.535deg)"> </span><span
+                                        style="transform: rotate(267.907deg)">E</span><span
+                                        style="transform: rotate(276.279deg)">n</span><span
+                                        style="transform: rotate(284.651deg)">g</span><span
+                                        style="transform: rotate(293.023deg)">i</span><span
+                                        style="transform: rotate(301.395deg)">n</span><span
+                                        style="transform: rotate(309.767deg)">e</span><span
+                                        style="transform: rotate(318.14deg)">e</span><span
+                                        style="transform: rotate(326.512deg)">r</span><span
+                                        style="transform: rotate(334.884deg)"> </span><span
+                                        style="transform: rotate(343.256deg)">*</span><span
+                                        style="transform: rotate(351.628deg)"> </span>
+                                </p>
+                            </div>
+                            <img src="assets/images/foto.png" alt="Mi foto" />
+                        </div>
+                    </div>
+                    <!-- Certificaciones -->
+    <div class="certifications-section ">
+        <h3 class="certifications-title">                <button class="btn btn-primary cv-download-btn" 
+                        (click)="downloadCV()"
+                        (click)='analyticsService.sendAnalyticEvent("download_cv", "menu", "click")'>
+                    <i class="fas fa-download me-5"></i>{{"Header.cvBtn" | translate}}
+                </button></h3>
+        
+        <div class="certifications-logos d-flex justify-content-center align-items-center gap-4">
+            <!-- ScrumStudy -->
+            <div class="certification-logo">
+                <img src="assets/images/scrum-certified.jpeg" 
+                     alt="ScrumStudy Scrum Fundamentals" 
+                     title="Scrum Fundamentals - ScrumStudy"
+                     class="logo-img">
+                <div class="logo-label">SCRUMstudy</div>
+            </div>
+            
+            <!-- CodeRank -->
+            <div class="certification-logo">
+                <img src="assets/images/fcc.png" 
+                     alt="FreCodeCamp Certification" 
+                     title="FreeCodeCamp"
+                     class="logo-img">
+                <div class="logo-label">FreeCodeCAmp</div>
+            </div>
+            
+            <!-- Udemy -->
+            <div class="certification-logo">
+                <img src="https://static.vecteezy.com/system/resources/previews/067/941/713/non_2x/udemy-logo-rounded-without-background-for-online-course-platform-free-png.png" 
+                     alt="Udemy Certification" 
+                     title="Udemy Certification"
+                     class="logo-img">
+                <div class="logo-label">Udemy</div>
+            </div>
+        </div>
+    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="about-description">
+                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate; let i = index' [innerHTML]="text"
+                            data-animate="fadeInLeft" [attr.data-animate-delay]="200 + (i * 300)"
+                            data-animate-duration="800">
+                        </p>
+<div class="skills-container">
+  <!-- Arquitectura -->
+  <div class="skill-category">
+    <div class="skill-title">{{"Skills.Architecture" | translate}}</div>
+    <div class="skills-tags">
+      <span class="skill-tag">Onion</span>
+      <span class="skill-tag">Microfrontends</span>
+      <span class="skill-tag">Microservicios</span>
+      <span class="skill-tag">API Gateway</span>
+      <span class="skill-tag">Service Discovery (Eureka)</span>
+      <span class="skill-tag">Arquitectura orientada a eventos (Kafka)</span>
+    </div>
+  </div>
+
+  <!-- Backend -->
+  <div class="skill-category">
+    <div class="skill-title">{{"Skills.Backend" | translate}}</div>
+    <div class="skills-tags">
+      <span class="skill-tag">Java (Spring Boot, Hibernate)</span>
+      <span class="skill-tag">Node.js (Express, NestJs)</span>
+      <span class="skill-tag">PHP</span>
+    </div>
+  </div>
+
+  <!-- Frontend -->
+  <div class="skill-category">
+    <div class="skill-title">{{"Skills.Frontend" | translate}}</div>
+    <div class="skills-tags">
+      <span class="skill-tag">Angular (Module Federation, PrimeNG)</span>
+      <span class="skill-tag">React (Hooks, Redux)</span>
+      <span class="skill-tag">TypeScript</span>
+      <span class="skill-tag">Tailwind CSS</span>
+    </div>
+  </div>
+
+  <!-- Móvil / Multiplataforma -->
+  <div class="skill-category">
+    <div class="skill-title">{{"Skills.Mobile" | translate}}</div>
+    <div class="skills-tags">
+      <span class="skill-tag">Kotlin (Android)</span>
+      <span class="skill-tag">Flutter</span>
+      <span class="skill-tag">Java (Android)</span>
+    </div>
+  </div>
+
+  <!-- DevOps -->
+  <div class="skill-category">
+    <div class="skill-title">{{"Skills.DevOps" | translate}}</div>
+    <div class="skills-tags">
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Git Flow</span>
+    </div>
+  </div>
+</div>
+
+
+
+
+                    </div>
+                </div>
+
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para imagen ampliada -->
+    <div class="image-modal-overlay" *ngIf="isImageModalOpen" (click)="onModalBackdropClick($event)" [@fadeInOut]>
+        <div class="image-modal-container">
+            <button class="modal-close-btn" (click)="closeImageModal()" aria-label="Cerrar modal">
+                <span>&times;</span>
+            </button>
+            <img class="modal-image" src="assets/images/me6.jpg" alt="Abraham Villca - Imagen ampliada" [@zoomIn]>
+        </div>
+    </div>
+</section>

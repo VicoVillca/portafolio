@@ -1,0 +1,164 @@
+@use "./../../../../variables" as *;
+
+footer{
+    color: $LightSlate;
+    position: relative;
+    width: 100%;
+    min-height: 100px; // Altura mínima para que se vea
+    display: block; // Asegura que sea un bloque
+    
+    // Añade un fondo si es necesario (opcional)
+    // background: rgba(10, 25, 47, 0.95);
+    
+
+    .footer-left-bar:after, .footer-right-bar:after{
+        content: '';
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0 auto;
+        background-color: $LightestNavy;
+    }
+
+    .footer-left-bar li, .footer-right-bar li{
+        list-style: none;
+    }
+
+    .footer-left-bar{
+        position: fixed;
+        bottom: 0; // Cambia de -16px a 0
+        left: 51px;
+        padding: 0;
+        z-index: 1000; // Añade esto
+
+        i{
+            font-size: 19px;
+            color: $LightestNavy;
+            transition: color 0.3s ease;
+            
+            &:hover {
+                color: $Green;
+            }
+        }
+
+        li{
+            margin: 20px 0px;
+
+            &:last-of-type {
+                margin-bottom: 33px;
+            }
+        }
+        
+        a {
+            display: block;
+            padding: 5px;
+            color: $LightestNavy;
+        }
+    }
+
+    .footer-right-bar{
+        position: fixed;
+        bottom: 0px;
+        right: 41px;
+        padding: 0;
+        z-index: 1000; // Añade esto
+
+        li{
+            transform: rotate(90deg);
+        }
+
+        a{
+            font-family: $CodeFont;
+            font-size: 12px;
+            letter-spacing: 0.1em;
+            writing-mode: vertical-rl;
+            margin: 20px auto;
+            padding: 10px;
+            color: $LightestNavy;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            
+            &:hover {
+                color: $Green;
+            }
+        }
+    }
+    
+    .footer-credits{
+        font-family: $CodeFont;
+        font-size: 12px;
+        line-height: 1;
+        position: absolute;
+        bottom: 30px; // Posición desde abajo
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 1000;
+
+        a{
+            color: $LightSlate;
+            transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+            text-decoration: none;
+            display: block;
+
+            &:hover, &:focus {
+                color: $Green;
+            }
+            
+            div {
+                margin: 5px 0;
+            }
+            
+            .mt-2 {
+                margin-top: 8px;
+            }
+        }
+    }
+}
+
+// Media query para móviles - los elementos fijos pueden causar problemas
+@media (max-width: 768px) {
+    footer {
+        .footer-left-bar,
+        .footer-right-bar {
+            position: relative;
+            bottom: auto;
+            left: auto;
+            right: auto;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            
+            &:after {
+                display: none;
+            }
+        }
+        
+        .footer-left-bar {
+            order: 2;
+            
+            ul {
+                display: flex;
+                gap: 20px;
+                padding: 0;
+            }
+        }
+        
+        .footer-right-bar {
+            order: 1;
+            
+            a {
+                writing-mode: horizontal-tb;
+                transform: none;
+            }
+        }
+        
+        .footer-credits {
+            position: relative;
+            bottom: auto;
+            order: 3;
+            margin-top: 20px;
+        }
+    }
+}
